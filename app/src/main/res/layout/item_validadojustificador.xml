@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="240dp">
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+         android:layout_gravity="center"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:id="@+id/fechavalida"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text=" Fecha"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#666666"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:id="@+id/tipovalido"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Tipo"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/autorizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha : "
+        android:textSize="15dp"
+        android:layout_marginRight="45dp"
+        android:textColor="#666666"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/fecha_validacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evento: "
+        android:textSize="15dp"
+        android:layout_marginRight="45dp"
+        android:textColor="#666666"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/tipojus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Justificación: "
+        android:textSize="15dp"
+        android:layout_marginRight="45dp"
+        android:textColor="#666666"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:id="@+id/comentariohecho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="comentario: "
+            android:textSize="15dp"
+            android:layout_marginRight="45dp"
+            android:textColor="#666666"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/justificador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Justificador: "
+        android:textSize="15dp"
+        android:layout_marginRight="45dp"
+        android:textColor="#666666"
+        android:layout_marginTop="45dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/tipojus"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+</LinearLayout>

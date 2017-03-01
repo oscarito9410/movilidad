@@ -1,0 +1,643 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:2:1-296:12
+	package
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:4:5-51
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:6:5-47
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:7:5-10:55
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\AndroidManifest.xml:23:5-42
+MERGED from [com.android.support:design:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\AndroidManifest.xml:17:5-42
+MERGED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:10:9-52
+	android:minSdkVersion
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:12:5-14:35
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:13:9-41
+	android:required
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:14:9-32
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\AndroidManifest.xml:20:5-66
+MERGED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:21:5-23:47
+	android:protectionLevel
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:22:9-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:24:5-26:47
+	android:protectionLevel
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:25:9-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:28:5-75
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:28:22-72
+permission#com.gruposalinas.elektra.movilidadgs.permission.MAPS_RECEIVE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:30:5-32:47
+	android:protectionLevel
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:32:9-44
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:31:9-84
+uses-permission#com.gruposalinas.elektra.movilidadgs.permission.MAPS_RECEIVE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:34:5-100
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:34:22-97
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:35:5-98
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:35:22-95
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:36:5-38:47
+	android:protectionLevel
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:38:9-44
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:37:9-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:39:5-41:47
+	android:protectionLevel
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:40:9-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:42:5-66
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:42:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:43:5-68
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:43:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:45:5-81
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:45:22-78
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:46:5-67
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:46:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:47:5-69
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:47:22-66
+uses-permission#android.permission.CAPTURE_VIDEO_OUTPUT
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:49:5-79
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:49:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:50:5-65
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:50:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:51:5-71
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:51:22-68
+application
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:54:5-294:19
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\AndroidManifest.xml:24:5-19
+MERGED from [com.android.support:design:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\AndroidManifest.xml:19:5-21:19
+MERGED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:13:5-21:19
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:57:9-41
+	android:supportsRtl
+		ADDED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:16:9-35
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:59:9-48
+	android:allowBackup
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:55:9-35
+	android:icon
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:56:9-50
+	android:theme
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:58:9-62
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:60:9-62:71
+	android:value
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:62:13-68
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:61:13-62
+activity#com.gruposalinas.elektra.movilidadgs.Activities.LoginActivity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:64:9-67:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:66:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:67:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:65:13-53
+activity#com.gruposalinas.elektra.movilidadgs.Activities.RegistroActivity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:68:9-71:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:70:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:71:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:69:13-56
+activity#com.gruposalinas.elektra.movilidadgs.Activities.MainActivity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:74:9-77:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:76:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:77:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:75:13-52
+activity#com.gruposalinas.elektra.movilidadgs.Activities.MovementListActivity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:80:9-82:50
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:82:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:81:13-60
+service#com.gruposalinas.elektra.movilidadgs.geolocation.EmployeeLocationService
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:84:9-88:78
+	android:enabled
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:86:13-35
+	android:exported
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:87:13-37
+	android:permission
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:88:13-75
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:85:13-64
+receiver#com.gruposalinas.elektra.movilidadgs.receivers.arrancarservicio
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:91:9-95:20
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:91:19-61
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:92:13-94:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:93:17-79
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:93:25-76
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Horarios_consulta
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:97:9-100:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:99:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:100:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:98:13-57
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Detalle_Horario_pendiente
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:101:9-105:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:104:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:103:13-78
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:105:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:102:13-65
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Activity_Tiendas
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:106:9-110:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:109:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:108:13-69
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:110:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:107:13-56
+activity#com.gruposalinas.elektra.movilidadgs.Activities.TiendaDetalle
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:111:9-114:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:113:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:114:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:112:13-53
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Mostrar_mapas
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:115:9-118:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:117:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:118:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:116:13-53
+activity#com.gruposalinas.elektra.movilidadgs.Activities.ListadoTiendas
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:119:9-123:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:122:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:121:13-67
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:123:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:120:13-54
+activity#com.gruposalinas.elektra.movilidadgs.Activities.MostrarMapaEnviar
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:124:9-128:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:127:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:126:13-71
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:128:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:125:13-57
+activity#com.gruposalinas.elektra.movilidadgs.Activities.ListaZonasActivity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:129:9-132:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:131:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:132:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:130:13-58
+activity#com.gruposalinas.elektra.movilidadgs.Activities.DetalleZonaActivity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:133:9-136:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:135:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:136:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:134:13-59
+activity#com.gruposalinas.elektra.movilidadgs.Activities.MenuAplicaciones
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:137:9-141:59
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:140:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:139:13-45
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:141:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:138:13-56
+activity#com.gruposalinas.elektra.movilidadgs.Activities.DetalleZonaEliminar
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:142:9-146:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:145:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:144:13-73
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:146:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:143:13-59
+activity#com.gruposalinas.elektra.movilidadgs.Activities.MapasZonasUbicaciones
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:147:9-151:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:150:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:149:13-75
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:151:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:148:13-61
+activity#com.gruposalinas.elektra.movilidadgs.Activities.ListaIncidenciasActivity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:152:9-156:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:155:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:154:13-69
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:156:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:153:13-64
+activity#com.gruposalinas.elektra.movilidadgs.Activities.justificacionCatalogo
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:157:9-161:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:160:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:159:13-74
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:161:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:158:13-61
+activity#com.gruposalinas.elektra.movilidadgs.Activities.VerDetalleJustificacionActivity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:162:9-166:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:165:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:164:13-77
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:166:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:163:13-71
+service#com.gruposalinas.elektra.movilidadgs.geolocation.ServicePanico
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:168:9-171:40
+	android:enabled
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:170:13-35
+	android:exported
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:171:13-37
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:169:13-54
+receiver#com.gruposalinas.elektra.movilidadgs.receivers.Cambios_Configuracion
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:173:9-186:20
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:173:19-66
+intent-filter#android.intent.action.ACTION_SHUTDOWN+android.intent.action.AIRPLANE_MODE+android.intent.action.BATTERY_CHANGED+android.intent.action.BATTERY_LOW+android.intent.action.BOOT_COMPLETED+android.intent.action.DATE_CHANGED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET+android.intent.action.TIME_TICK+android.location.PROVIDERS_CHANGED
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:174:13-185:29
+action#android.intent.action.AIRPLANE_MODE
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:175:17-78
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:175:25-75
+action#android.location.PROVIDERS_CHANGED
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:176:17-77
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:176:25-74
+action#android.intent.action.ACTION_SHUTDOWN
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:177:17-80
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:177:25-77
+action#android.intent.action.BATTERY_CHANGED
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:179:17-80
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:179:25-77
+action#android.intent.action.BATTERY_LOW
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:180:17-76
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:180:25-73
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:181:17-81
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:181:25-78
+action#android.intent.action.TIME_SET
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:182:17-73
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:182:25-70
+action#android.intent.action.TIME_TICK
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:183:17-74
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:183:25-71
+action#android.intent.action.DATE_CHANGED
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:184:17-77
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:184:25-74
+service#com.gruposalinas.elektra.movilidadgs.geolocation.serviceEvento
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:188:9-192:78
+	android:enabled
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:190:13-35
+	android:exported
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:191:13-37
+	android:permission
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:192:13-75
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:189:13-54
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Panico
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:194:9-198:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:197:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:196:13-58
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:198:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:195:13-46
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Activity_horarios_Autorizar
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:199:9-202:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:201:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:202:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:200:13-67
+receiver#com.gruposalinas.elektra.movilidadgs.receivers.notificacion_app
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:204:9-64
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:204:19-61
+receiver#com.gruposalinas.elektra.movilidadgs.receivers.incidenciasreciver
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:205:9-66
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:205:19-63
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Nombres_lista
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:207:9-210:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:209:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:210:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:208:13-53
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Contacto
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:211:9-215:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:214:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:213:13-60
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:215:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:212:13-48
+activity#com.gruposalinas.elektra.movilidadgs.Activities.capture_video
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:216:9-218:50
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:218:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:217:13-53
+service#com.gruposalinas.elektra.movilidadgs.geolocation.HoraExacta
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:220:9-224:78
+	android:enabled
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:222:13-35
+	android:exported
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:223:13-37
+	android:permission
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:224:13-75
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:221:13-51
+receiver#com.gruposalinas.elektra.movilidadgs.receivers.horarecibe
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:226:9-58
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:226:19-55
+receiver#com.gruposalinas.elektra.movilidadgs.receivers.recibeSalida
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:227:9-60
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:227:19-57
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Contactos
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:229:9-232:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:231:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:232:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:230:13-49
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Permisos_Activity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:233:9-237:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:236:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:235:13-61
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:237:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:234:13-57
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Permisos_Plantilla_Activity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:238:9-242:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:241:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:240:13-72
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:242:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:239:13-67
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Agregar_Permisos_activity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:243:9-247:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:246:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:245:13-78
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:247:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:244:13-65
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Agregar_permisos_plantilla
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:248:9-252:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:251:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:250:13-78
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:252:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:249:13-66
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Plantilla_ZonasYubicaciones
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:253:9-256:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:255:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:256:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:254:13-67
+activity#com.gruposalinas.elektra.movilidadgs.Activities.tienda_detalle_plantilla
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:257:9-261:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:260:13-49
+	android:label
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:259:13-76
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:261:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:258:13-64
+activity#com.gruposalinas.elektra.movilidadgs.Activities.Plantilla_ZonasYubicaciones_pendientes
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:262:9-265:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:264:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:265:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:263:13-78
+service#com.gruposalinas.elektra.movilidadgs.geolocation.MyService
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:267:9-270:39
+	android:enabled
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:269:13-35
+	android:exported
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:270:13-36
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:268:13-50
+activity#com.gruposalinas.elektra.movilidadgs.Activities.AsignarZona_Plantilla
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:272:9-275:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:274:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:275:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:273:13-61
+activity#com.gruposalinas.elektra.movilidadgs.Activities.listado_ubicaciones_plantilla
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:276:9-279:50
+	android:screenOrientation
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:278:13-49
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:279:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:277:13-69
+activity#com.gruposalinas.elektra.movilidadgs.Activities.SplashScreenActivity
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:280:9-288:20
+	tools:ignore
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:282:13-47
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:281:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:283:13-287:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:284:17-69
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:284:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:286:17-77
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:286:27-74
+service#com.gruposalinas.elektra.movilidadgs.geolocation.GPS_Service
+ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:290:9-293:47
+	android:enabled
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:292:13-35
+	android:exported
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:293:13-36
+	android:name
+		ADDED from C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\src\main\AndroidManifest.xml:291:13-52
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\AndroidManifest.xml:20:20-65
+activity#com.example.adrian.vistaweb.vistawebview
+ADDED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:17:9-77
+	android:name
+		ADDED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:17:19-74
+activity#com.example.adrian.vistaweb.vista_web_descarga
+ADDED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:18:9-83
+	android:name
+		ADDED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:18:19-80
+activity#com.example.adrian.vistaweb.paginaWeb
+ADDED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:19:9-74
+	android:name
+		ADDED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:19:19-71
+activity#com.example.adrian.vistaweb.vista_fecha
+ADDED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:20:9-76
+	android:name
+		ADDED from [movilidad:vistaweb1:unspecified] C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\movilidad\vistaweb1\unspecified\AndroidManifest.xml:20:19-73

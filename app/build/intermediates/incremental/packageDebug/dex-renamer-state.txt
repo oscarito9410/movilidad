@@ -1,0 +1,7 @@
+#Tue Feb 28 16:42:59 CST 2017
+base.0=C\:\\Users\\oemy9\\AndroidStudioProjects\\movilidad\\movilidad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_cc337f8393ecdb85251cb3dc9a47c10aff67b5aa
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\oemy9\\AndroidStudioProjects\\movilidad\\movilidad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c2651b3f085ea3406678d1c00f3e6d9dc7f5914c\\classes.dex
+base.1=C\:\\Users\\oemy9\\AndroidStudioProjects\\movilidad\\movilidad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c2651b3f085ea3406678d1c00f3e6d9dc7f5914c
+file.0=C\:\\Users\\oemy9\\AndroidStudioProjects\\movilidad\\movilidad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_cc337f8393ecdb85251cb3dc9a47c10aff67b5aa\\classes.dex

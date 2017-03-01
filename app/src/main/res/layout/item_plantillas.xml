@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="56dp">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:background="#F7F5F1"
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/justificacion"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/icono_autorizado_x2"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/tipo"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="5dp"
+                android:text="Tipo"
+                android:textColor="#666666"
+                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            <TextView
+                android:id="@+id/fechaocurriencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Fecha"
+                android:textSize="15dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#666666"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

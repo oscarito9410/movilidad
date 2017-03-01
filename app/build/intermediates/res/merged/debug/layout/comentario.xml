@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/cerrarx"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/tituloDialogo"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="left"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            android:text="Anexa tu comentario"
+            android:layout_width="wrap_content"
+            android:visibility="invisible"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/cerrar"
+            android:background="@drawable/boton_cerrar_x2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+
+
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:text="   Motivo:"
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/comentario_"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:singleLine="true"
+        android:imeOptions="actionNone"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp"
+        android:hint="comentario aquí"
+        android:layout_width="240dp"
+        android:layout_height="100dp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/boton_confirmar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="#808080"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:text="Rechazar"
+            android:layout_width="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="#EFC822"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:text="Aceptar"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

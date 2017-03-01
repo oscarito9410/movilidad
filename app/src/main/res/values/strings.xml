@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Socio MAS</string>
+    <string name="empleado_text">Usuario</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="login_title_text">Socio MAS</string>
+    <string name="login_sesion_button">Iniciar sesión</string>
+    <string name="login_registrar_button">Registrarse</string>
+    <string name="login_longitud_error">El número de usuario debe ser de 8 caracteres</string>
+    <string name="login_empleado_error">Debe introducir un número de empleado</string>
+    <string name="login_puesto_error">Debe elegir un puesto de la lista</string>
+    <string name="login_masterkey_text">Número de celular</string>
+    <string name="empresa">Empresa:   </string>
+    <string name="ele">ELEKTRA</string>
+
+    <!-- REGISTRO ACTIVITY -->
+    <string name="registro_empleado_text">Número de empleado</string>
+    <string name="registro_telefono_text">Número de teléfono</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="main_name_hint">Presiona para  ver los detalles de tu perfil</string>
+    <string name="main_name_text">Nombre</string>
+    <string name="main_connectivity_text">Conexión Celular</string>
+    <string name="main_connectivity_response">3G</string>
+    <string name="main_gps_text">Estatus del GPS</string>
+    <string name="main_gps_response">Activo</string>
+    <string name="main_more_button">Ver más</string>
+
+    <string name="useless_text">.     .</string>
+    <string name="title_activity_menu">menu</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_detalle__horario_pendiente">Detalle_Horario_pendiente</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+
+    <!-- MAP ACTIVITY -->
+
+    <!-- areglos para Spiner -->
+    <string-array name="hora">
+        <item>12:00</item>
+        <item>12:15</item>
+        <item>12:30</item>
+        <item>12:45</item>
+        <item>1:00</item>
+        <item>1:15</item>
+        <item>1:30</item>
+        <item>1:45</item>
+        <item>2:00</item>
+        <item>2:15</item>
+        <item>2:30</item>
+        <item>2:45</item>
+        <item>3:00</item>
+        <item>3:15</item>
+        <item>3:30</item>
+        <item>3:45</item>
+        <item>4:00</item>
+        <item>4:15</item>
+        <item>4:30</item>
+        <item>4:45</item>
+        <item>5:00</item>
+        <item>5:15</item>
+        <item>5:30</item>
+        <item>5:45</item>
+        <item>6:00</item>
+        <item>6:15</item>
+        <item>6:30</item>
+        <item>6:45</item>
+        <item>7:00</item>
+        <item>7:15</item>
+        <item>7:30</item>
+        <item>7:45</item>
+        <item>8:00</item>
+        <item>8:15</item>
+        <item>8:30</item>
+        <item>8:45</item>
+        <item>9:00</item>
+        <item>9:15</item>
+        <item>9:30</item>
+        <item>9:45</item>
+        <item>10:00</item>
+        <item>10:15</item>
+        <item>10:30</item>
+        <item>10:45</item>
+        <item>11:00</item>
+        <item>11:15</item>
+        <item>11:30</item>
+        <item>11:45</item>
+    </string-array>
+    <string-array name="am_pm">
+        <item>pm</item>
+        <item>am</item>
+    </string-array>
+
+    <string-array name="horas">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="minutos">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+
+    <string name="title_activity_activity__tiendas">Activity_Tiendas</string>
+    <string name="title_activity_listado_tiendas">ListadoTiendas</string>
+    <string name="title_activity_mostrar_mapa_enviar">MostrarMapaEnviar</string>
+    <string name="title_activity_menu_aplicaciones">MenuAplicaciones</string>
+    <string name="title_activity_webview">WEbviewActivity</string>
+
+
+    <!-- arreglo para Spinner -->
+
+    <!-- mensajes de alerta en horario consulta-->
+    <string name="alerta">La propuesta de horario se ha enviado correctamente.
+        Recuerda que se requiere la validación de tu jefe para activarlo.</string>
+    <string name="erroralerta">Error al enviar propuesta de horario</string>
+    <string name="pendientetienda">Tienes zonas ó ubicaciones pendientes de autorización.
+          Toca aquí para consultarlos</string>
+    <string name="pendienteHoras">Tienes horarios pendientes de autorización.
+         Toca aquí para consultarlos</string>
+    <string name="titleZonasUbicacion">¿Deseas añadir una zona o
+         una ubicación específica?</string>
+    <string name="botonpop">Ubicación</string>
+    <string name="zonapopboton">Zona</string>
+    <string name="tituloHorario">Mis horarios</string>
+    <string name="registrotexto">Registro de usuario</string>
+    <string name="propuestaHorario">Proponer nuevo horario</string>
+    <string name="derechos">Copyright 2016 Grupo Salinas</string>
+    <string name="title_activity_detalle_zona_eliminar">DetalleZonaEliminar</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="alerta1">Está seguro de proponer el horario</string>
+    <string name="alerta2">No has Seleccionado un horario correcto</string>
+    <string name="enviar">Enviar</string>
+    <string name="mensajezonas">La propuesta de zona se ha enviado correctamente.
+        Recuerda que se requiere la validación de tu jefe para activarlo.</string>
+    <string name="errorzona">error al enviar zona</string>
+    <string name="eliminarzona1">Está seguro de eliminar la zona</string>
+    <string name="enviarzona">Está seguro de enviar la zona</string>
+    <string name="mensajezonaseliminar">La propuesta de zona se ha eliminado correctamente.
+        Recuerda que se requiere la validación de tu jefe para activarlo.</string>
+    <string name="fallaservidor">No se pudo conectar con el servidor, intente de nuevo más tarde.</string>
+    <string name="mensajeubicaciones">La propuesta de ubicación se ha eliminado correctamente.
+        Recuerda que se requiere la validación de tu jefe para activarlo.</string>
+    <string name="confirmacionUbicacion">"Está seguro de eliminar la Ubicación "</string>
+    <string name="confirmacionUbicacionenviar">"Está seguro de enviar la Ubicación "</string>
+    <string name="mensajeubicacionesENIVAR">La propuesta de ubicación se ha enviado correctamente.
+        Recuerda que se requiere la validación de tu jefe para activarlo.</string>
+    <string name="title_activity_mapas_zonas_ubicaciones">MapasZonasUbicaciones</string>
+    <string name="MENSAJE1">Aquí se muestran las zonas o ubicaciones que tienes pendientes de autorización. Solicita a tu jefe que los autorice para que sean activados.</string>
+    <string name="mensajehoras">Aquí se muestran los horarios que tienes pendientes de autorización. Solicita a tu jefe que los autorice para que sean activados.</string>
+
+
+    <string name="pruebanotificacionmensaje">Nueva incidencia</string>
+    <string name="titlenotificacion">Tienes una nueva incidencia</string>
+    <string name="bateria">Su dispositivo tiene baja batería. Conecte el dispositivo al cargador.</string>
+    <string name="beteriabaja">Bateria baja</string>
+    <string name="title_activity_lista_incidencias">ListaIncidenciasActivity</string>
+    <string name="Incidencias">Mis justificaciones</string>
+    <string name="Familia">Familia Socio</string>
+    <string name="Movilidadgs">Socio MAS</string>
+    <string name="title_activity_justificacion_catalogo">justificacionCatalogo</string>
+    <string name="title_activity_ver_detalle_justificacion">VerDetalleJustificacionActivity</string>
+    <string name="alertajustificacion">Está seguro de justificar la incidencia</string>
+     <string name="mensajejust">La justificación se ha enviado correctamente.
+        Recuerda que se requiere la validación de tu jefe para validarlo.</string>
+    <string name="erroralertajustificacion">Error al enviar la justificación</string>
+    <string name="servicioArrancar">Presione para iniciar aplicación</string>
+    <string name="titleservice">Iniciar Servicio</string>
+    <string name="version_name">2.2.2</string>
+    <string name="versionnombre">Existe una nueva versión</string>
+    <string name="versionaccion">Tienes  fecha limite para actualizar de : </string>
+    <string name="validacionjustif">El Justificante se ha enviado correctamente.</string>
+    <string name="errorvalidacionjustif">Error al validar justificación.</string>
+    <string name="validarjustificacionchecar">Está seguro de justificar la incidencia</string>
+    <string name="rechazo">Error al validar rechazo de justificación.</string>
+    <string name="rechazo1">Está seguro de rechazar la incidencia</string>
+    <string name="rechazo2">El Justificante se ha rechazado correctamente.</string>
+    <string name="rechazo3">Error al rechazar la justificación.</string>
+    <string name="mensajeactualizado">Trabajamos continuamente para que Socio MAS sea más útil para ti.</string>
+    <string name="textopanico">Se enviará una notificación de alerta a tu jefe\n y a los siguientes contactos.</string>
+    <string name="textopanico1">segundos </string>
+    <string name="title_activity_panico">Panico</string>
+    <string name="title_activity_menu_horario_zonas_pendientes">Menu_horario_zonas_pendientes
+    </string>
+    <string name="msjError">Error de conexión intentar más tarde.</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="llavaSimetrica">JtwJpIFKdRoJ7HIEY68/I3jl0kznV5o=</string>
+    <string name="tituloincidencia">Justificaciones\n de mi plantilla</string>
+    <string name="title_activity_permisos_">Permisos_Activity</string>
+    <string name="title_activity_permisos__plantilla_">Permisos_Plantilla_Activity</string>
+    <string name="title_activity_agregar__permisos_activity">Agregar_Permisos_activity</string>
+    <string name="title_activity_agregar_permisos_plantilla">Agregar_permisos_plantilla</string>
+    <string name="token_llave">Llave o Token</string>
+    <string name="title_activity_tienda_detalle_plantilla">tienda_detalle_plantilla</string>
+
+
+</resources>

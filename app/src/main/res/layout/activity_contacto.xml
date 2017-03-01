@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context="com.gruposalinas.elektra.movilidadgs.Activities.Contacto">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#FFD700"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:id="@+id/regresar"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <ImageButton
+                    android:id="@+id/boton_regresar"
+                    android:background="@drawable/flecha_cabeza"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_marginRight="100dp"
+                    android:id="@+id/main_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aseguradoras"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="#333333"
+                    android:textSize="15dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            tools:ignore="UnknownId">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_marginLeft="14dp"
+                            android:src="@drawable/icono_aseguradoras_a_x2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginRight="45dp"
+                            android:text="Membresía Familia Sana - Medical Group"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:layout_marginTop="4dp"
+                            android:textSize="15sp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/marcar1"
+                    android:layout_marginLeft="44dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/numero1"
+                            android:text="01 800 830 67 87"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Asesoría médica telefónica las 24 horas los 365 días del año."
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="10sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Asesoría  sobre los primeros auxilios."
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="10sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Asesoría sobre síntomas  y molestias menores."
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="10sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Orientacíon sobre el uso  de medicamentos, sus efectos y dosis recomendada."
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="10sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible"
+                    android:background="#F7F5F1"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_marginEnd="9dp"
+                            android:src="@drawable/icono_aseguradoras_b_x2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginEnd="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="PólizaAutomovil Flotilla"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:layout_marginTop="4dp"
+                            android:textSize="15sp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/marcar2"
+                    android:background="#F7F5F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginLeft="44dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/numero2"
+                            android:text="01 800 500 1500"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:layout_marginTop="4dp"
+                            android:textSize="15sp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#F7F5F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginLeft="45dp"
+                        android:text="Mencionar que el automovil pertenece a la flotilla de Grupo Salinas"
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="10sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_marginEnd="9dp"
+                            android:src="@drawable/icono_aseguradoras_c_x2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginEnd="110dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Póliza Motocicletas Flotilla"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:layout_marginTop="4dp"
+                            android:textSize="15sp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/marcar3"
+                    android:layout_marginLeft="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginLeft="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/numero3"
+                            android:text="01 800 800 2880"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:layout_marginTop="4dp"
+                            android:textSize="15sp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Mencionar que la motocicleta pertenece a la flotilla de grupo salinas"
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="10sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible"
+                    android:background="#F7F5F1"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_marginEnd="20dp"
+                            android:src="@drawable/icono_aseguradoras_a_x2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginEnd="45dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginEnd="45dp"
+                            android:text="Gastos medicos mayores"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:layout_marginTop="4dp"
+                            android:textSize="15sp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/marcar4"
+                    android:background="#F7F5F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginLeft="44dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/numero4"
+                            android:text="01 800 830 67 87"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#F7F5F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginLeft="45dp"
+                        android:text="Asesoría médica telefónica las 24 horas los 365 días del año."
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="10sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#F7F5F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginLeft="45dp"
+                        android:text="Asesoría  sobre los primeros auxilios."
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="10sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#F7F5F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Asesoría sobre síntomas  y molestias menores."
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="45dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#F7F5F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginLeft="45dp"
+                        android:text="Orientacíon sobre el uso  de medicamentos, sus efectos y dosis recomendada."
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="10sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:background="#3F3E3E"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:id="@+id/paginaweb5"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/cuentanos"
+                android:layout_marginLeft="140dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+            <LinearLayout
+                android:visibility="visible"
+                android:id="@+id/panico"
+                android:layout_width="40dp"
+                android:layout_marginLeft="140dp"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:background="@drawable/panico_icono"
+                    android:layout_width="25dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="25dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

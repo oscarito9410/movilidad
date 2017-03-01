@@ -1,0 +1,2 @@
+include ':app', ':vistaweb1'
+project(':vistaweb1').projectDir = new File('vistaweb')

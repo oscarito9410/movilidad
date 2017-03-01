@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Activities.VerDetalleJustificacionActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="240dp"
+        android:id="@+id/drawer_layout"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:id="@+id/content_frame"
+            android:layout_width="240dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:background="#FFD700">
+                <LinearLayout
+                    android:id="@+id/regresar2"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp">
+                    <ImageButton
+                        android:id="@+id/boton_regresar"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/flecha_cabeza"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Justificaciones de mi plantilla"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFD700"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#373333"
+                    android:id="@+id/textView4" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/cabezal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView4"
+                android:layout_alignStart="@+id/textView4">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Empleado:"
+                    android:textSize="15dp"
+                    android:layout_marginRight="1dp"
+                    android:textColor="#373333"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <TextView
+                    android:id="@+id/datos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="datos"
+                    android:textColor="#373333"
+                    android:textSize="15dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                     </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="260dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_below="@+id/cabezal"
+                android:id="@+id/linearLayout3">
+
+                <GridView
+                    android:id="@+id/lista_de_justificacion_valida"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+                </GridView>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="200dp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginRight="400dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/progresoDetalle_justificacion"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_marginTop="200dp"
+                        android:id="@+id/main_progressbar_imageview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/loading_animation"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Evidencia:"
+                    android:textSize="15dp"
+                    android:layout_marginRight="45dp"
+                    android:textColor="#373333"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                <ImageView
+                    android:id="@+id/pruebaverimagen"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:visibility="visible"
+                    android:src="@drawable/fondo_imagen_justicaciones_x2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/linearLayout3"
+                    android:layout_centerHorizontal="true" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/botones"
+                android:layout_below="@+id/pruebaverimagen"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/rechazar"
+                    android:text="Rechazar"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:textColor="#FFFFFF"
+                    android:background="#808080"
+                    />
+
+
+                <Button
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/autorizar"
+                    android:text="Aprobar"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:textColor="#FFFFFF"
+                    android:background="#50C860"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/listatiendasUbicaciones"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:background="#3F3E3E"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:id="@+id/paginaweb"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/cuentanos"
+                    android:layout_marginLeft="140dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:id="@+id/panico"
+                    android:layout_width="40dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:background="@drawable/panico_icono"
+                        android:layout_width="25dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_height="25dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="240dp"
+            android:layout_gravity="start"
+            android:id="@+id/contenidor"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/dlete"
+                    android:background="@drawable/boton_cerrar_x2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:id="@+id/horarios_menu"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/reloj"
+                        android:background="@drawable/horario3"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_menuHorario"
+                        android:text="Horarios"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/Ubicacion_menu"
+                    android:layout_marginTop="115dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/tocar"
+                        android:background="@drawable/ubicaciones3"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_menuUbicacion"
+                        android:text="Ubicaciones"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/menu_incidencias"
+                    android:layout_marginTop="190dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/icono_incidenciasmenu"
+                        android:background="@drawable/incidencias_icono"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_menuIncidencias"
+                        android:text="Incidencias"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:id="@+id/contacto"
+                    android:layout_marginTop="190dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/contacto1"
+                        android:background="@drawable/icono_contacto_principal"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/contactotexto"
+                        android:text="Aseguradoras"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/menu_panico"
+                    android:layout_marginTop="270dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/icono_panico_menu"
+                        android:background="@drawable/icono_panico"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_menupanico"
+                        android:text="Bóton de Pánico"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/pendientes_autorizar"
+                    android:layout_marginTop="340dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/icono_pendiente"
+                        android:background="@drawable/icono_panico"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_pendiente"
+                        android:text="Pendientes Autorizar"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+
+
+            </FrameLayout>
+        </FrameLayout>
+
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

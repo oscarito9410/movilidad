@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:background="#FFFFFF"
+    android:id="@android:id/text1"
+    android:text="prueba"
+    android:gravity="left"
+    android:textSize="15dp"
+    android:textColor="#666666"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_gravity="left"
+    android:layout_marginTop="10dp"
+    android:layout_height="50sp">
+</TextView>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gruposalinas.elektra.movilidadgs"
+    android:versionCode="1"
+    android:versionName="@string/version_name" > <!-- =======PERMISOS Y DEMÁS======= -->
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- Permite el uso de internet, leer el estado del WIFI/3G -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- PARA LA UBICACION POR GPS -->
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:protectionLevel="dangerous" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:protectionLevel="dangerous" />
+    <!-- Para leer el IMEI/MEID -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- Para Google Maps -->
+    <permission
+        android:name="com.gruposalinas.elektra.movilidadgs.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.gruposalinas.elektra.movilidadgs.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:protectionLevel="dangerous" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:protectionLevel="dangerous" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Permite reiniciar el servicio aunque se apague el dispositivo -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- permite la grabacion del video -->
+    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- =======APLICACIÓN======= -->
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_socio_mas_x2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCvr_Nu5lwCXc7COmYH_H67Aq4nNSStJCc" />
+
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.RegistroActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- created by ADT ext plugin at 2015-10-06 16:18:05 -->
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <!-- created by ADT ext plugin at 2015-10-06 16:18:34 -->
+        <!-- created by ADT ext plugin at 2015-11-05 11:09:37 -->
+        <activity android:name="com.gruposalinas.elektra.movilidadgs.Activities.MovementListActivity" />
+        <!-- =======SERVICIOS Y RECEPTORES======= -->
+        <service
+            android:name="com.gruposalinas.elektra.movilidadgs.geolocation.EmployeeLocationService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+        <!-- Broadcast que permite el arranque del servicio -->
+        <receiver android:name="com.gruposalinas.elektra.movilidadgs.receivers.arrancarservicio" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Horarios_consulta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Detalle_Horario_pendiente"
+            android:label="@string/title_activity_detalle__horario_pendiente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Activity_Tiendas"
+            android:label="@string/title_activity_activity__tiendas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.TiendaDetalle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Mostrar_mapas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.ListadoTiendas"
+            android:label="@string/title_activity_listado_tiendas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.MostrarMapaEnviar"
+            android:label="@string/title_activity_mostrar_mapa_enviar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.ListaZonasActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.DetalleZonaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.MenuAplicaciones"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.DetalleZonaEliminar"
+            android:label="@string/title_activity_detalle_zona_eliminar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.MapasZonasUbicaciones"
+            android:label="@string/title_activity_mapas_zonas_ubicaciones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.ListaIncidenciasActivity"
+            android:label="@string/title_activity_lista_incidencias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.justificacionCatalogo"
+            android:label="@string/title_activity_justificacion_catalogo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.VerDetalleJustificacionActivity"
+            android:label="@string/title_activity_ver_detalle_justificacion"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.gruposalinas.elektra.movilidadgs.geolocation.ServicePanico"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name="com.gruposalinas.elektra.movilidadgs.receivers.Cambios_Configuracion" >
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIME_TICK" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.gruposalinas.elektra.movilidadgs.geolocation.serviceEvento"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Panico"
+            android:label="@string/title_activity_panico"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Activity_horarios_Autorizar"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.gruposalinas.elektra.movilidadgs.receivers.notificacion_app" />
+        <receiver android:name="com.gruposalinas.elektra.movilidadgs.receivers.incidenciasreciver" />
+
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Nombres_lista"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Contacto"
+            android:label="@string/title_activity_contacto"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.gruposalinas.elektra.movilidadgs.Activities.capture_video" />
+
+        <service
+            android:name="com.gruposalinas.elektra.movilidadgs.geolocation.HoraExacta"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+        <receiver android:name="com.gruposalinas.elektra.movilidadgs.receivers.horarecibe" />
+        <receiver android:name="com.gruposalinas.elektra.movilidadgs.receivers.recibeSalida" />
+
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Contactos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Permisos_Activity"
+            android:label="@string/title_activity_permisos_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Permisos_Plantilla_Activity"
+            android:label="@string/title_activity_permisos__plantilla_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Agregar_Permisos_activity"
+            android:label="@string/title_activity_agregar__permisos_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Agregar_permisos_plantilla"
+            android:label="@string/title_activity_agregar_permisos_plantilla"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Plantilla_ZonasYubicaciones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.tienda_detalle_plantilla"
+            android:label="@string/title_activity_tienda_detalle_plantilla"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.Plantilla_ZonasYubicaciones_pendientes"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.gruposalinas.elektra.movilidadgs.geolocation.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.AsignarZona_Plantilla"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gruposalinas.elektra.movilidadgs.Activities.listado_ubicaciones_plantilla"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.gruposalinas.elektra.movilidadgs.Activities.SplashScreenActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.gruposalinas.elektra.movilidadgs.geolocation.GPS_Service"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.example.adrian.vistaweb.vistawebview" />
+        <activity android:name="com.example.adrian.vistaweb.vista_web_descarga" />
+        <activity android:name="com.example.adrian.vistaweb.paginaWeb" />
+        <activity android:name="com.example.adrian.vistaweb.vista_fecha" />
+    </application>
+
+</manifest>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tituloDialogo"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:text="Solicitar cambio de horario"
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="#808080"
+        android:visibility="visible"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal">
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/mensajemostrar"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp"
+        android:text="¿Deseas enviar esta solicitud?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/boton_confirmar"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="#EFC822"
+        android:visibility="visible"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textoAutorizar"
+            android:text="Confirmar"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/boton_cancelar"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="#A59D95"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textoRechazar"
+            android:text="Cancelar"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="#808080"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:text="Cancelar"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

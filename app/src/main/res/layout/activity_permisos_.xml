@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context="com.gruposalinas.elektra.movilidadgs.Activities.Permisos_Activity">
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="240dp"
+        android:id="@+id/drawer_layout"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:id="@+id/content_frame"
+            android:layout_width="240dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:background="#FFD700">
+                <LinearLayout
+                    android:id="@+id/regresar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp">
+                    <ImageButton
+                        android:id="@+id/boton_regresar"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/flecha_cabeza"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textSize="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Mis permisos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFD700"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginLeft="95dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#373333"
+                        android:id="@+id/textView4" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:background="@drawable/add"
+                    android:id="@+id/imagenagregar"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/cabezaIncidencia"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="#F7F5F1"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/textView4"
+                android:layout_alignStart="@+id/textView4">
+                <TextView
+                    android:id="@+id/fechaocurriencia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estatus"
+                    android:textSize="15dp"
+                    android:layout_marginRight="80dp"
+                    android:textColor="#373333"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <TextView
+                    android:id="@+id/tipo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="90dp"
+                    android:text="Periodo"
+                    android:textColor="#373333"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/justificacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#373333"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Asunto"
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="340dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/linearLayout4">
+
+
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="290dp"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/progresoIncidencia"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/main_progressbar_imageview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/loading_animation"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <GridView
+                    android:id="@+id/listapermisos"
+                    android:layout_width="wrap_content"
+                    android:visibility="visible"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:background="@drawable/icono_autorizado_x2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/linearLayout5"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Autorizados"
+                    android:id="@+id/textView7"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="12dp"
+                    android:textColor="#373333"
+                    android:layout_alignTop="@+id/textView6"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="25dp">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:background="@drawable/icono_pendiente_autorizar_x2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/linearLayout6"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignBottom="@+id/textView5"
+                    android:layout_toEndOf="@+id/textView5">
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pendiente de autorización"
+                    android:id="@+id/textView6"
+                    android:textSize="12dp"
+                    android:textColor="#373333"
+                    android:layout_marginLeft="15dp"/>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_below="@+id/listatiendasUbicaciones"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:background="#3F3E3E"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/paginaweb"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/cuentanos"
+                    android:layout_marginLeft="140dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:id="@+id/panico"
+                    android:layout_width="40dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:background="@drawable/panico_icono"
+                        android:layout_width="25dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_height="25dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="240dp"
+            android:layout_gravity="start"
+            android:id="@+id/contenidor"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/dlete"
+                    android:background="@drawable/boton_cerrar_x2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:id="@+id/horarios_menu"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/reloj"
+                        android:background="@drawable/horario3"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_menuHorario"
+                        android:text="Horarios"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/Ubicacion_menu"
+                    android:layout_marginTop="115dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/tocar"
+                        android:background="@drawable/ubicaciones3"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_menuUbicacion"
+                        android:text="Ubicaciones"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="invisible"
+                    android:id="@+id/menu_incidencias"
+                    android:layout_marginTop="190dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/icono_incidenciasmenu"
+                        android:background="@drawable/incidencias_icono"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_menuIncidencias"
+                        android:text="Incidencias"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:id="@+id/contacto"
+                    android:layout_marginTop="190dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/contacto1"
+                        android:background="@drawable/icono_contacto_principal"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/contactotexto"
+                        android:text="Aseguradoras"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_panico"
+                    android:layout_marginTop="270dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/icono_panico_menu"
+                        android:background="@drawable/icono_panico"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_menupanico"
+                        android:text="Bóton de Pánico"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="invisible"
+                    android:id="@+id/pendientes_autorizar"
+                    android:layout_marginTop="340dp"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/icono_pendiente"
+                        android:background="@drawable/icono_panico"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+                    <TextView
+                        android:id="@+id/texto_pendiente"
+                        android:text="Pendientes Autorizar"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#EFEEEE"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </FrameLayout>
+
+
+
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+</android.support.v4.widget.DrawerLayout>

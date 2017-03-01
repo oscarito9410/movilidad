@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_6feaae75edf0a12ee54bf73efc4c1a24ecba10f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c62a4e3f2da5b84c3cb4366814d074b018ca01aa">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cc337f8393ecdb85251cb3dc9a47c10aff67b5aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_c6cb49b67e30cd774bed71a0a0820e9f05638a50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.8.0_555c32b950a91986da795be856748a8dd0bb6243\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\libs\ormlite-android-4.49-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ecfae85e17f2472852fa8298952f9d52f6a6bfa4">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-android-4.49-SNAPSHOT_400e29057a58690d6e8b045fda60b930227bbcbc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.8.0_e14fca3752805a6f4340d776ef772f4e69f6081c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_746a7cde668568c2161d035025795f2c69c38782\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_3ebcdcac0156369e8af59f690bed3a495ea25e4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\libs\ormlite-core-4.49-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9a8b276da6dada8141f614d3feba25a0e8589db7">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-core-4.49-SNAPSHOT_2119a77a4fd628883c69931bbf5c4594e438ba92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_26f29be3629f8ac7b2623bdab6303c7ad39378fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_4b789a37a7ca70dcc2fc7d1edf8136787b4c7434\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_5458f5de422f5cbba24143b4c7d8c88a67a5dace\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_dacc5ce6ce0a63d8bd299ba03ecbde27ebfd054d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_6f3d8ca0da22243d2df80c347b0e632819c6e4cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_619952259281da393de305a87e76dbb37570dd53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_ba10cf24a001a6ec28dcdd4df842fa752e6a2960\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_3aaae320cc0c61118bc2b603c5ccba157467162f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2d752c5ea4ed83c36a7b56091e5e6669341d882e">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c2651b3f085ea3406678d1c00f3e6d9dc7f5914c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\oemy9\AndroidStudioProjects\movilidad\movilidad\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_1848461e5baf8a6d2d47c15296faee5416ef05eb\classes.dex" />
+    </item>
+
+</items>
